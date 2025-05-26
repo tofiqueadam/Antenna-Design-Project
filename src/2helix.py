@@ -42,7 +42,7 @@ ax1.set_ylabel("Y")
 ax1.set_zlabel("Z")
 ax1.legend()
 
-# 3D plot for axial mode
+# 3D plot for axial mode........
 ax2 = fig.add_subplot(122, projection='3d')
 ax2.plot3D(x_axial, y_axial, z_axial, color='r', label='Axial Mode')
 ax2.set_title("Axial Mode Helix")
