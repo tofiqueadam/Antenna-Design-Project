@@ -4,7 +4,7 @@ from scipy.integrate import quad
 
 # Try to set an interactive backend for displaying plots
 try:
-    plt.switch_backend('TkAgg')  # Use TkAgg for interactive rendering
+    plt.switch_backend('TkAgg')  #  TkAgg for interactive rendering
 except ImportError:
     print("Warning: TkAgg backend unavailable. Install Tkinter (e.g., pip install tk). Falling back to default backend.")
 
@@ -91,5 +91,3 @@ plt.show(block=True)
 
 # This part of code generates the report of the above code.
 
-summary = f"""
-# Uniform Linear Array Directivity Analysis
