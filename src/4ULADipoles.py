@@ -90,4 +90,6 @@ plt.savefig('dipole_array_directivity_analysis.png')
 plt.show(block=True)
 
 # This part of code generates the report of the above code.
+summary = f"""
+# Uniform Linear Array Directivity Analysis
 
